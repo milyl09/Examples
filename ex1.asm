@@ -2,7 +2,7 @@
 g: .word 7
 h: .word 3
 i: .word 5
-j: .word 5
+w: .word 5
 f: .word 0
 
 .text
@@ -11,7 +11,7 @@ main:
     lw $t1, g         # Load g into $t1
     lw $t2, h         # Load h into $t2
     lw $t3, i         # Load i into $t3
-    lw $t4, j         # Load j into $t4
+    lw $t4, w         # Load j into $t4
 
     bne $t3, $t4, else_part  # If i != j, go to else
 
